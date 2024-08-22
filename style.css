@@ -1,0 +1,269 @@
+.Intro{
+    background-color:#e4f9f5;
+    padding-top: 100px;
+    text-align: center;
+    width: 2000px;
+    height: 900px;
+   position: relative;
+    
+}
+
+.second{
+    width: 100%;
+    height: 1800px;
+    background-color:beige;
+    padding: 50px;
+}
+
+body {
+    margin: 0; 
+    padding: 0; 
+    overflow-x: hidden; 
+}
+
+
+.name{
+    color:chocolate;
+    border: 0;
+    margin: 0;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    font-size:6rem;
+    padding-bottom: 10px;
+        
+}
+
+.skill{
+    font-family: "Jersey 10", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3.5rem;
+        margin:0;
+        padding-top: 10px;
+    }
+
+.web-image{
+    position: absolute;
+    top: 10px; 
+    left: 40px; 
+    width: 300px; 
+    height: auto; 
+    width: 10%; 
+    max-width: 300px; 
+    
+    height: auto;
+}
+
+
+
+.middle-image{
+    display: flex;
+    justify-content: center;
+}
+
+.decoration{
+    text-decoration:underline;
+}
+
+.joy-image {
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    border-radius: 50%; 
+    margin-bottom: 15px;
+}
+
+.middle-intro{
+    
+    display: flex;
+    padding:0;
+    border:0;
+    margin: 0;
+    justify-content: center;
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 700;
+    font-style: normal;
+  font-size: 50px;
+  padding-left: 500px;
+  padding-right: 500px;
+
+}
+
+.hello{
+    font-size: 40px;
+    text-align: center;
+    font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+}
+
+.skill-title{
+    
+    font-size: 60px;
+    text-align: center;
+    font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+  margin: 0;
+  color: black;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 2fr;
+    grid-template-columns: 1fr 2fr;
+    gap: 0px;
+}
+
+.position-grid{
+    display: flex;
+    justify-content: center;
+}
+
+.skill-content{
+    text-align: center;
+    font-size: 30px;
+    color:black;
+}
+
+.skill-span{
+    text-decoration:underline;
+}
+
+.contact-title{
+    font-size: 50px;
+    text-align: center;
+}
+
+.contact-span{
+    text-decoration: underline;
+}
+
+.skill-heading{
+    font-size: 80px;
+}
+
+.contact-content{
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.button{
+    background-color: #11cdd4;
+    height: 100px;
+    width: 300px;
+    color:white;
+    font-size: 50px;
+    border-radius: 25%;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    animation: blink 0.5s infinite alternate; /* Trigger blinking on hover */
+}
+ 
+.button-div{
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.third{
+    width: 2000px;
+    height: 300px;
+    background-color: #11cdd4;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .name {
+        font-size: 2.5rem;
+    }
+
+    .skill {
+        font-size: 1.5rem;
+    }
+
+    .web-image {
+        width: 50%;
+    }
+
+    .middle-intro {
+        font-size: 1.5rem;
+        padding: 0 5%;
+    }
+
+    .hello, .contact-title {
+        font-size: 2rem;
+    }
+
+    .skill-title {
+        font-size: 2.5rem;
+    }
+
+    .button {
+        height: 50px;
+        width: 150px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .skill {
+        font-size: 1.2rem;
+    }
+
+    .web-image {
+        width: 80%;
+    }
+
+    .middle-intro {
+        font-size: 1rem;
+        padding: 0 2%;
+    }
+
+    .hello, .contact-title {
+        font-size: 1.5rem;
+    }
+
+    .skill-title {
+        font-size: 2rem;
+    }
+
+    .button {
+        height: 40px;
+        width: 120px;
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
